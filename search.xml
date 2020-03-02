@@ -217,7 +217,7 @@
 <h2 id="四、生成发布"><a href="#四、生成发布" class="headerlink" title="四、生成发布"></a>四、生成发布</h2><p>输入生成和发布命令，发布到自己的博客网站上</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo generate</span></pre></td></tr><tr><td class="code"><pre><span class="line">hexo deploy</span></pre></td></tr></table></figure>
 <h1 id="0X05总结"><a href="#0X05总结" class="headerlink" title="0X05总结"></a><strong><em>0X05总结</em></strong></h1><p>小编第一次搭建博客平台，由于自己是小白，没有任何经验所以在搭建的过程中踩了一次又一次的坑，但最终还是搭建起来了，不过还有一些后续的东西需要部署。关于如何绑定域名在此不多做介绍，因为我自己没有做这个环节。小编利用晚上的时间整理出这篇文章，希望能够帮助到需要搭建博客平台的你。</p>
-<p>本文作者：Sundry-Z<br>参考文章：<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/26625249</a></p>
+<p>参考文章：<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/26625249</a></p>
 ]]></content>
       <categories>
         <category>技术</category>
