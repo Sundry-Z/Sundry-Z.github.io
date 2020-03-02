@@ -3,8 +3,9 @@
   <entry>
     <title>About Me</title>
     <url>/2020/03/01/About-Me/</url>
-    <content><![CDATA[<p>作者：Sundry-Z<br>CSDN: <a href="https://me.csdn.net/AD_gnai" target="_blank" rel="noopener">https://me.csdn.net/AD_gnai</a><br>简书: <a href="https://www.jianshu.com/u/a4ced7a8167c" target="_blank" rel="noopener">https://www.jianshu.com/u/a4ced7a8167c</a><br>Weibo: <a href="https://weibo.com/u/6052471972" target="_blank" rel="noopener">https://weibo.com/u/6052471972</a><br>Github: <a href="http://github.com/Sundry-Z" target="_blank" rel="noopener">http://github.com/Sundry-Z</a><br>微信公众号：Sudry杂项</p>
+    <content><![CDATA[<p>作者：Sundry-Z<br>微信公众号：Sudry杂项<br>CSDN: <a href="https://me.csdn.net/AD_gnai" target="_blank" rel="noopener">https://me.csdn.net/AD_gnai</a><br>Github: <a href="http://github.com/Sundry-Z" target="_blank" rel="noopener">http://github.com/Sundry-Z</a><br>Weibo: <a href="https://weibo.com/u/6052471972" target="_blank" rel="noopener">https://weibo.com/u/6052471972</a><br>简书: <a href="https://www.jianshu.com/u/a4ced7a8167c" target="_blank" rel="noopener">https://www.jianshu.com/u/a4ced7a8167c</a></p>
 <p><img src="https://s2.ax1x.com/2020/03/01/32QFfO.png" alt="32QFfO.png"></p>
+<p><img src="https://s2.ax1x.com/2020/03/02/3RZShQ.png" alt="3RZShQ.png"></p>
 ]]></content>
       <categories>
         <category>随笔</category>
@@ -166,6 +167,7 @@
         <category>网络</category>
       </categories>
       <tags>
+        <tag>网络</tag>
         <tag>路由</tag>
       </tags>
   </entry>
@@ -222,6 +224,7 @@
       </categories>
       <tags>
         <tag>博客</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
