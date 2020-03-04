@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sundry-z.github.io/"/>
-  <updated>2020-03-02T02:49:02.036Z</updated>
+  <updated>2020-03-04T13:34:10.917Z</updated>
   <id>https://sundry-z.github.io/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux学习笔记 &amp; 1、简述</title>
+    <link href="https://sundry-z.github.io/2020/03/04/Linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1%E3%80%81%E7%AE%80%E8%BF%B0/"/>
+    <id>https://sundry-z.github.io/2020/03/04/Linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1%E3%80%81%E7%AE%80%E8%BF%B0/</id>
+    <published>2020-03-04T13:32:50.000Z</published>
+    <updated>2020-03-04T13:34:10.917Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;一、操作系统&quot;&gt;&lt;a href=&quot;#一、操作系统&quot; class=&quot;headerlink&quot; title=&quot;一、操作系统&quot;&gt;&lt;/a&gt;一、操作系统&lt;/h1&gt;&lt;hr&gt;
+&lt;h3 id=&quot;1-什么是操作系统？&quot;&gt;&lt;a href=&quot;#1-什么是操作系统？&quot; class=&quot;headerlink&quot; title=&quot;1.什么是操作系统？&quot;&gt;&lt;/a&gt;1.什么是操作系统？&lt;/h3&gt;&lt;p&gt; 操作系统（英语：Operating System，缩写：OS）是管理计算机硬件与软件资源的计算机程序，同时也是计算机系统的内核与基石。操作系统需要处理如管理与配置内存、决定系统资源供需的优先次序、控制输入设备 与输出设备 、操作网络与管理文件系统等基本事务。操作系统也提供一个让用户与系统交互的操作界面。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="笔记" scheme="https://sundry-z.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="操作系统" scheme="https://sundry-z.github.io/categories/%E7%AC%94%E8%AE%B0/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="Linux" scheme="https://sundry-z.github.io/tags/Linux/"/>
+    
+      <category term="操作系统" scheme="https://sundry-z.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML基础（三）</title>
+    <link href="https://sundry-z.github.io/2020/03/04/HTML%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%89%EF%BC%89/"/>
+    <id>https://sundry-z.github.io/2020/03/04/HTML%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%89%EF%BC%89/</id>
+    <published>2020-03-04T12:45:28.000Z</published>
+    <updated>2020-03-04T13:20:21.735Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;0X11HTML表格&quot;&gt;&lt;a href=&quot;#0X11HTML表格&quot; class=&quot;headerlink&quot; title=&quot;0X11HTML表格&quot;&gt;&lt;/a&gt;&lt;strong&gt;&lt;em&gt;0X11HTML表格&lt;/em&gt;&lt;/strong&gt;&lt;/h1&gt;&lt;hr&gt;
+&lt;h3 id=&quot;一、属性border&quot;&gt;&lt;a href=&quot;#一、属性border&quot; class=&quot;headerlink&quot; title=&quot;一、属性border&quot;&gt;&lt;/a&gt;一、属性border&lt;/h3&gt;&lt;p&gt;默认情况下，浏览器显示图片是没有边框的，即边框宽度为0。利用border属性可以为图片加上边框。border属性的参数值是数字，表示边框宽度所占的像素点数。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="笔记" scheme="https://sundry-z.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="HTML" scheme="https://sundry-z.github.io/tags/HTML/"/>
+    
+  </entry>
   
   <entry>
     <title>About Me</title>
@@ -48,7 +96,7 @@
     <link href="https://sundry-z.github.io/2020/01/26/HTML%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
     <id>https://sundry-z.github.io/2020/01/26/HTML%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%8C%EF%BC%89/</id>
     <published>2020-01-26T07:57:03.000Z</published>
-    <updated>2020-03-01T07:08:17.101Z</updated>
+    <updated>2020-03-04T12:56:46.102Z</updated>
     
     <summary type="html">
     

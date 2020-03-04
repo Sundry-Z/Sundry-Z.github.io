@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+    
+  <meta name="description" content="A share of hard work and a penny of harvest" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>
+    HTML基础（三） |  Sundry_Z
+  </title>
+  <meta name="generator" content="hexo-theme-yilia-plus">
+  
+  <link rel="shortcut icon" href="/favicon.ico" />
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/pace.min.js"></script>
+
+  
+
+  
+<script>
+var _hmt = _hmt || [];
+(function() {
+	var hm = document.createElement("script");
+	hm.src = "https://hm.baidu.com/hm.js?f32e11960e04a32086c73c6cb74a439a";
+	var s = document.getElementsByTagName("script")[0]; 
+	s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<link rel="alternate" href="/atom.xml" title="Sundry_Z" type="application/atom+xml">
+</head>
+
+</html>
+
+<body>
+  <div id="app">
+    <main class="content">
+      <section class="outer">
+  <article id="post-HTML基础（三）" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  HTML基础（三）
+</h1>
+  
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/03/04/HTML%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%89%EF%BC%89/" class="article-date">
+  <time datetime="2020-03-04T12:45:28.000Z" itemprop="datePublished">2020-03-04</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a>
+  </div>
+
+      
+      
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">1.2k字</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">5分钟</span>
+        </span>
+    </span>
+</div>
+
+      
+    </div>
+    
+
+    
+    
+    <div class="tocbot"></div>
+
+
+
+
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+
+
+      
+
+      
+      <h1 id="0X11HTML表格"><a href="#0X11HTML表格" class="headerlink" title="0X11HTML表格"></a><strong><em>0X11HTML表格</em></strong></h1><hr>
+<h3 id="一、属性border"><a href="#一、属性border" class="headerlink" title="一、属性border"></a>一、属性border</h3><p>默认情况下，浏览器显示图片是没有边框的，即边框宽度为0。利用border属性可以为图片加上边框。border属性的参数值是数字，表示边框宽度所占的像素点数。</p>
+<a id="more"></a>
+
+<h3 id="二、HTML表格"><a href="#二、HTML表格" class="headerlink" title="二、HTML表格"></a>二、HTML表格</h3><p>表格由<code>&lt;table&gt;</code>标签来定义。每个表格均有若干行（由<code>&lt;tr&gt;</code> 标签定义），每行被分割为若干单元格（由<code>&lt;td&gt;</code>标签定义）。</p>
+<h3 id="三、表格标签"><a href="#三、表格标签" class="headerlink" title="三、表格标签"></a>三、表格标签</h3><p>1.表格标签用来创建一个表格。<br>2.语法：<code>&lt;table&gt;...&lt;table&gt;</code><br>3.属性：<br>width和height属性设置表格的宽度和高度<br>border和bordercolor属性设置表格边框的像素值和颜色值<br>cellspacing和cellpadding属性设置单元格之间的空间大小和单元格边框与内部文字之间的空间大小。</p>
+<h3 id="四、行标签"><a href="#四、行标签" class="headerlink" title="四、行标签"></a>四、行标签</h3><p>1.行标签用来创建表格中的每一行。行标签只能放在表格标签对之间，并且行标签对之间不可以加入文本。<br>2.语法：<code>&lt;tr&gt;...&lt;/tr&gt;</code><br>3.属性：属性align、属性valign、属性bgcolor</p>
+<h3 id="五、表头标签-lt-th-gt-lt-th-gt"><a href="#五、表头标签-lt-th-gt-lt-th-gt" class="headerlink" title="五、表头标签&lt;th&gt;...&lt;/th&gt;"></a>五、表头标签<code>&lt;th&gt;...&lt;/th&gt;</code></h3><p>1.表头标签用来设置表格头，通常是黑体字且在单元格内居中，该标签用来告诉浏览器将一个单元格的内容格式化为表头。<br>2.语法：<code>&lt;th&gt;...&lt;/th&gt;</code></p>
+<h3 id="六、单元格标签"><a href="#六、单元格标签" class="headerlink" title="六、单元格标签"></a>六、单元格标签</h3><p>1.单元格标签是用来创建表格中每一行里的每一个单元格，单元格标签只能放在行标签对之间。需要输入的文本放在单元格标签对之间。<br>2.语法：<code>&lt;td&gt;...&lt;/td&gt;</code><br>3.属性：属性width和height、属性align和valign、属性colspan和rowspan。<br>4.实例:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">&lt;body&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">  &lt;table border=<span class="string">"1"</span>&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line">&lt;tr bgcolor=<span class="string">"#C0C0C0"</span>&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line">    &lt;th width=<span class="string">"130"</span> height=<span class="string">"50"</span>&gt;姓名&lt;/th&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">5</span></pre></td><td class="code"><pre><span class="line">	&lt;th width=<span class="string">"130"</span> height=<span class="string">"50"</span>&gt;语文&lt;/th&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">6</span></pre></td><td class="code"><pre><span class="line">	&lt;th width=<span class="string">"130"</span> height=<span class="string">"50"</span>&gt;数学&lt;/th&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">7</span></pre></td><td class="code"><pre><span class="line">	&lt;th width=<span class="string">"130"</span> height=<span class="string">"50"</span>&gt;英语&lt;/th&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">8</span></pre></td><td class="code"><pre><span class="line">&lt;/tr&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">9</span></pre></td><td class="code"><pre><span class="line">&lt;tr&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">10</span></pre></td><td class="code"><pre><span class="line">    &lt;td&gt;张三&lt;/td&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">11</span></pre></td><td class="code"><pre><span class="line">	&lt;td&gt;85&lt;/td&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">12</span></pre></td><td class="code"><pre><span class="line">	&lt;td&gt;90&lt;/td&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">13</span></pre></td><td class="code"><pre><span class="line">	&lt;td&gt;95&lt;/td&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">14</span></pre></td><td class="code"><pre><span class="line">&lt;/tr&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">15</span></pre></td><td class="code"><pre><span class="line">&lt;tr&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">16</span></pre></td><td class="code"><pre><span class="line">    &lt;td&gt;小明&lt;/td&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">17</span></pre></td><td class="code"><pre><span class="line">	&lt;td&gt;95&lt;/td&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">18</span></pre></td><td class="code"><pre><span class="line">	&lt;td&gt;80&lt;/td&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">19</span></pre></td><td class="code"><pre><span class="line">	&lt;td&gt;95&lt;/td&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">20</span></pre></td><td class="code"><pre><span class="line">&lt;/tr&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">21</span></pre></td><td class="code"><pre><span class="line">  &lt;/table&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">22</span></pre></td><td class="code"><pre><span class="line">&lt;/body&gt;</span></pre></td></tr></table></figure>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pLmJtcC5vdmgvaW1ncy8yMDIwLzAzLzkxYzFmMjk3NWMyMGI2YzEucG5n?x-oss-process=image/format,png" alt=""></p>
+<h1 id="0X12-HTML表单标签"><a href="#0X12-HTML表单标签" class="headerlink" title="0X12 HTML表单标签"></a>0X12 HTML表单标签</h1><hr>
+<h3 id="一、表单（Form）"><a href="#一、表单（Form）" class="headerlink" title="一、表单（Form）"></a>一、表单（Form）</h3><p>表单（Form）是HTML的一个重要部分，主要用于采集和提交用户输入的信息，使网页具有交互的功能。一般是将表单设计在一个HTML文档中，当用户填写完信息后做提交（submit）操作，表单的内容就被传送到服务器上，处理完毕后再将信息返回客户端。</p>
+<h3 id="二、表单标签"><a href="#二、表单标签" class="headerlink" title="二、表单标签"></a>二、表单标签</h3><p>1.作用：表单标签用来创建一个表单，在标签对之间的都属于表单的内容。<br>2.语法：<code>&lt;form&gt;...&lt;/form&gt;</code><br>3.常用属性：属性action、属性method、属性target</p>
+<h3 id="三、用户输入区域标签-lt-input-type-quot-quot-gt"><a href="#三、用户输入区域标签-lt-input-type-quot-quot-gt" class="headerlink" title="三、用户输入区域标签&lt;input type=&quot;&quot;&gt;"></a>三、用户输入区域标签<code>&lt;input type=&quot;&quot;&gt;</code></h3><h4 id="1-lt-input-type-quot-quot-gt-标签"><a href="#1-lt-input-type-quot-quot-gt-标签" class="headerlink" title="1.&lt;input type=&quot;&quot;&gt;标签"></a>1.<code>&lt;input type=&quot;&quot;&gt;</code>标签</h4><p>表单中提供给用户的形式一般使用<code>&lt;input type=&quot;&quot;&gt;</code>标签来实现，此标签用来定义一个用户输入区，用户可以在其中输入信息。<code>&lt;input type=&quot;&quot;&gt;</code>标签有多种类型输入区域，由type属性决定。需要注意的是该标签必须放在表单标签之间。</p>
+<h4 id="2-单行文本输入框（input-type-”text”）"><a href="#2-单行文本输入框（input-type-”text”）" class="headerlink" title="2.单行文本输入框（input type=”text”）"></a>2.单行文本输入框（input type=”text”）</h4><p>实例：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">&lt;form&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">   &lt;p&gt;username:&lt;input <span class="built_in">type</span>=<span class="string">"text"</span> name=<span class="string">"fname"</span> /&gt;&lt;/p&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line"> &lt;/form&gt;</span></pre></td></tr></table></figure>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9mdHAuYm1wLm92aC9pbWdzLzIwMjAvMDMvZmFiYTM1NzdiYTU0NzRjYy5wbmc?x-oss-process=image/format,png" alt=""></p>
+<h4 id="3-密码输入框（input-type-”password”）"><a href="#3-密码输入框（input-type-”password”）" class="headerlink" title="3.密码输入框（input type=”password”）"></a>3.密码输入框（input type=”password”）</h4><p>实例：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">&lt;form&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">   &lt;p&gt;password:&lt;input <span class="built_in">type</span>=<span class="string">"password"</span> name=<span class="string">"pwd"</span> /&gt;&lt;/p&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line"> &lt;/form&gt;</span></pre></td></tr></table></figure>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9mdHAuYm1wLm92aC9pbWdzLzIwMjAvMDMvZmIxMWNjZWJkOWQ4YWNlMy5wbmc?x-oss-process=image/format,png" alt=""></p>
+<h4 id="4-单选框（input-type-”radio”）"><a href="#4-单选框（input-type-”radio”）" class="headerlink" title="4.单选框（input type=”radio”）"></a>4.单选框（input type=”radio”）</h4><p>实例：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">&lt;form&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">&lt;input <span class="built_in">type</span>=<span class="string">"radio"</span> name=<span class="string">"alpabet"</span> value=<span class="string">"a"</span>&gt;A&lt;br&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line">&lt;input <span class="built_in">type</span>=<span class="string">"radio"</span> name=<span class="string">"alpabet"</span> value=<span class="string">"b"</span>&gt;B</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line">&lt;/form&gt;</span></pre></td></tr></table></figure>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9mdHAuYm1wLm92aC9pbWdzLzIwMjAvMDMvYjIzZmRhZDdlOGJmZWE4YS5wbmc?x-oss-process=image/format,png" alt=""></p>
+<h4 id="5-复选框（input-type-”checkbox”）"><a href="#5-复选框（input-type-”checkbox”）" class="headerlink" title="5.复选框（input type=”checkbox”）"></a>5.复选框（input type=”checkbox”）</h4><p>实例：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">&lt;form&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">&lt;input <span class="built_in">type</span>=<span class="string">"checkbox"</span> name=<span class="string">"alpabet"</span> value=<span class="string">"a"</span>&gt;A&lt;br&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line">&lt;input <span class="built_in">type</span>=<span class="string">"checkbox"</span> name=<span class="string">"alpabet"</span> value=<span class="string">"b"</span>&gt;B</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line">&lt;/form&gt;</span></pre></td></tr></table></figure>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9mdHAuYm1wLm92aC9pbWdzLzIwMjAvMDMvMjA3ODVmMDhlMWE1MDhiMy5wbmc?x-oss-process=image/format,png" alt=""></p>
+<h4 id="6-提交（input-type-”submit”）"><a href="#6-提交（input-type-”submit”）" class="headerlink" title="6.提交（input type=”submit”）"></a>6.提交（input type=”submit”）</h4><p>实例：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">&lt;form action=<span class="string">"xx.php method="</span>get<span class="string">"&gt;</span></span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line"><span class="string">   &lt;p&gt;username:&lt;input type="</span>text<span class="string">" name="</span>fname<span class="string">" /&gt;&lt;p&gt;</span></span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line"><span class="string">   &lt;p&gt;password:&lt;input type="</span>password<span class="string">" name="</span><span class="built_in">pwd</span><span class="string">" /&gt;&lt;p&gt;</span></span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line"><span class="string">   &lt;input type="</span>submit<span class="string">" value="</span>Submit<span class="string">" /&gt;</span></span></pre></td></tr><tr><td class="gutter"><pre><span class="line">5</span></pre></td><td class="code"><pre><span class="line"><span class="string">&lt;/form&gt;</span></span></pre></td></tr></table></figure>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9mdHAuYm1wLm92aC9pbWdzLzIwMjAvMDMvY2NmNjgwM2MxZDcyMTJkYS5wbmc?x-oss-process=image/format,png" alt=""></p>
+<h4 id="7-重置（input-type-”reset”）"><a href="#7-重置（input-type-”reset”）" class="headerlink" title="7.重置（input type=”reset”）"></a>7.重置（input type=”reset”）</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">&lt;form&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">   &lt;p&gt;username:&lt;input <span class="built_in">type</span>=<span class="string">"text"</span> name=<span class="string">"fname"</span> /&gt;&lt;p&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line">   &lt;p&gt;password:&lt;input <span class="built_in">type</span>=<span class="string">"password"</span> name=<span class="string">"pwd"</span> /&gt;&lt;p&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line">   &lt;input <span class="built_in">type</span>=<span class="string">"reset"</span> value=<span class="string">"Reset"</span> /&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">5</span></pre></td><td class="code"><pre><span class="line">&lt;/form&gt;</span></pre></td></tr></table></figure>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9mdHAuYm1wLm92aC9pbWdzLzIwMjAvMDMvN2EwMTYyMzE3MWE3NDEwYi5wbmc?x-oss-process=image/format,png" alt=""></p>
+<h4 id="8-图片提交"><a href="#8-图片提交" class="headerlink" title="8.图片提交"></a>8.图片提交</h4><p>实例：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">&lt;form&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">  &lt;label&gt;选择图片文件&lt;/label&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line"> &lt;input name=<span class="string">"imgfile"</span> <span class="built_in">type</span>=<span class="string">"file"</span> accept=<span class="string">"image/gif, image/jpeg"</span>/&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line">  &lt;input name=<span class="string">"upload"</span> <span class="built_in">type</span>=<span class="string">"submit"</span> value=<span class="string">"Submit"</span> /&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">5</span></pre></td><td class="code"><pre><span class="line">&lt;/form&gt;</span></pre></td></tr></table></figure>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDIwLzAzLzA0LzNvTnNhdC5wbmc?x-oss-process=image/format,png" alt="3oNsat.png"></p>
+<h4 id="9-上传（input-type-”file”）"><a href="#9-上传（input-type-”file”）" class="headerlink" title="9.上传（input type=”file”）"></a>9.上传（input type=”file”）</h4><p>实例：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">&lt;form&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">   &lt;p&gt;&lt;input <span class="built_in">type</span>=<span class="string">"file"</span>&gt;&lt;/p&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line">   &lt;input <span class="built_in">type</span>=<span class="string">"submit"</span> value=<span class="string">"submit"</span> /&gt;</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line">&lt;/form&gt;</span></pre></td></tr></table></figure>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMi5heDF4LmNvbS8yMDIwLzAzLzA0LzNvTklabi5wbmc?x-oss-process=image/format,png" alt="3oNIZn.png"></p>
+
+      
+      <!-- reward -->
+      
+      <div id="reward-btn">
+        打赏
+      </div>
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+        <div class="declare">
+          <ul class="post-copyright">
+            <li>
+              <i class="ri-copyright-line"></i>
+              <strong>本文作者： </strong s>
+              Sundry-Z
+            </li>
+           
+           <li>
+              <i class="ri-copyright-line"></i>
+              <strong>版权声明： </strong s>
+              本博客所有文章除特别声明外，均采用 <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="external nofollow"
+                target="_blank">Apache License 2.0</a> 许可协议。转载请注明来自Sundry-Z！
+            </li>
+          </ul>
+        </div>
+        
+    <footer class="article-footer">
+      
+          
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" target="_blank" rel="noopener" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" target="_blank" rel="noopener" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;" target="_blank" rel="noopener"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sundry-z.github.io/2020/03/04/HTML%E5%9F%BA%E7%A1%80%EF%BC%88%E4%B8%89%EF%BC%89/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HTML/" rel="tag">HTML</a></li></ul>
+
+
+    </footer>
+
+  </div>
+
+  
+  
+  <nav class="article-nav">
+    
+      <a href="/2020/03/04/Linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-1%E3%80%81%E7%AE%80%E8%BF%B0/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            Linux学习笔记 &amp; 1、简述
+          
+        </div>
+      </a>
+    
+    
+      <a href="/2020/03/01/About-Me/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">About Me</div>
+      </a>
+    
+  </nav>
+
+
+  
+
+  
+  
+<!-- valine评论 -->
+<div id="vcomments-box">
+    <div id="vcomments">
+    </div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js'></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        app_id: '',
+        app_key: '',
+        path: window.location.pathname,
+        notify: 'false',
+        verify: 'false',
+        avatar: 'mp',
+        placeholder: '欢迎您留下点足迹~',
+        recordIP: true
+    });
+    const infoEle = document.querySelector('#vcomments .info');
+    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+        infoEle.childNodes.forEach(function (item) {
+            item.parentNode.removeChild(item);
+        });
+    }
+</script>
+<style>
+    #vcomments-box {
+        padding: 5px 30px;
+    }
+
+    @media screen and (max-width: 800px) {
+        #vcomments-box {
+            padding: 5px 0px;
+        }
+    }
+
+    #vcomments-box #vcomments {
+        background-color: #fff;
+    }
+
+    .v .vlist .vcard .vh {
+        padding-right: 20px;
+    }
+
+    .v .vlist .vcard {
+        padding-left: 10px;
+    }
+</style>
+
+  
+
+  
+  
+  
+
+</article>
+</section>
+      <footer class="footer">
+  <div class="outer">
+    <ul class="list-inline">
+      <li>
+        &copy;
+        2019-2020
+        Sundry_Z
+      </li>
+      <li>
+        
+        Powered by
+        
+        
+        <a href="https://hexo.io" target="_blank">Hexo</a> Theme <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
+        
+      </li>
+    </ul>
+    <ul class="list-inline">
+      <li>
+        
+        
+        <span>
+  <i>PV:<span id="busuanzi_value_page_pv"></span></i>
+  <i>UV:<span id="busuanzi_value_site_uv"></span></i>
+</span>
+        
+      </li>
+      
+      <li>
+        <!-- cnzz统计 -->
+        
+        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
+        
+      </li>
+    </ul>
+  </div>
+</footer>
+      <div class="to_top">
+        <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+      </div>
+    </main>
+    <aside class="sidebar">
+      <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/logo4.png" alt="Sundry_Z"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">主页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/2020/03/01/About-Me/">关于我</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="Search">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="ri-rss-line"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+    </aside>
+    <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <div class="reward-box">
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/alipay.jpg">
+      <span class="reward-type">支付宝</span>
+    </div>
+    
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/wechat.jpg">
+      <span class="reward-type">微信</span>
+    </div>
+    
+  </div>
+</div>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/lazyload.min.js"></script>
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+<script src="/js/share.js"></script>
+
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+<script>
+  try {
+    var typed = new Typed("#subtitle", {
+    strings: ['如果有山的话，就有条越过它的路。','If there is a mountain, there is a way over it.',''],
+    startDelay: 0,
+    typeSpeed: 170,
+    loop: true,
+    backSpeed: 100,
+    showCursor: true
+    });
+  } catch (err) {
+  }
+  
+</script>
+
+
+
+<script src="/js/tocbot.min.js"></script>
+<script>
+  // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
+  tocbot.init({
+    tocSelector: '.tocbot',
+    contentSelector: '.article-entry',
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer:'main',
+    positionFixedSelector: '.tocbot',
+    positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+    onClick: (e) => {
+      $('.toc-link').removeClass('is-active-link');
+      $(`a[href=${e.target.hash}]`).addClass('is-active-link');
+      $(e.target.hash).scrollIntoView();
+      return false;
+    }
+  });
+</script>
+
+
+<script>
+  var ayerConfig = {
+    mathjax: false
+  }
+</script>
+
+<script src="/js/ayer.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css">
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script>
+
+
+
+
+<script type="text/javascript" src="https://js.users.51.la/20544303.js"></script>
+
+    
+  </div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
+
+</html>
