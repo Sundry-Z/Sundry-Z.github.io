@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sundry-z.github.io/"/>
-  <updated>2020-03-05T14:01:52.783Z</updated>
+  <updated>2020-03-10T05:52:41.179Z</updated>
   <id>https://sundry-z.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux学习笔记 &amp; 3、文件权限与目录配置</title>
+    <link href="https://sundry-z.github.io/2020/03/10/Linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-3%E3%80%81%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E4%B8%8E%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/"/>
+    <id>https://sundry-z.github.io/2020/03/10/Linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-3%E3%80%81%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E4%B8%8E%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/</id>
+    <published>2020-03-10T05:31:51.000Z</published>
+    <updated>2020-03-10T05:52:41.179Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;0X01文件权限&quot;&gt;&lt;a href=&quot;#0X01文件权限&quot; class=&quot;headerlink&quot; title=&quot;0X01文件权限&quot;&gt;&lt;/a&gt;0X01文件权限&lt;/h1&gt;&lt;hr&gt;
+&lt;p&gt;Linux不同于Windows,在Linux中一般将文件可存取的身份分为三个类别，分别是 owner(主用户)，group(组用户)，others(其他用户)，这三种身份分别有 read(可读)，write(可写)，execute(可执行)权限。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="笔记" scheme="https://sundry-z.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="操作系统" scheme="https://sundry-z.github.io/categories/%E7%AC%94%E8%AE%B0/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="Linux" scheme="https://sundry-z.github.io/tags/Linux/"/>
+    
+      <category term="操作系统" scheme="https://sundry-z.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux学习笔记 &amp; 2、入门</title>
