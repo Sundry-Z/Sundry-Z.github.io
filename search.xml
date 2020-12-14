@@ -1,6 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Python学习笔记 | 带你了解Python</title>
+    <url>/2020/12/13/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20%E5%B8%A6%E4%BD%A0%E4%BA%86%E8%A7%A3Python/</url>
+    <content><![CDATA[<h1 id="1-Python介绍"><a href="#1-Python介绍" class="headerlink" title="1 Python介绍"></a>1 Python介绍</h1><hr>
+<h2 id="1-1-Python简介"><a href="#1-1-Python简介" class="headerlink" title="1.1 Python简介"></a>1.1 Python简介</h2><ul>
+<li>Python 的 3.0 版本相对于 Python 的早期版本，这是一个较大的升级。为了不带入过多的累赘，Python 3.0在设计的时候没有考虑向下兼容。官方已经停止了对Python 2 的更新。<a id="more"></a></li>
+<li>Python 是一门简单易学且功能强大的编程语言。它拥有高效的高级数据结构，并且能够用简单而又高效的方式进行面向对象编程。Python优雅的语法和动态类型，再结合它的解释性，使其在大多数平台的许多领域成为编写脚本或开发应用程序的理想语言。</li>
+<li>Python 是一个高层次的结合了解释性、编译性、互动性和面向对象的脚本语言。Python的设计具有很强的可读性，相比其他语言经常使用英文关键字，其他语言的一些标点符号，它具有比其他语言更有特色语法结构。</li>
+<li>Python 是一种解释型语言： 意味着开发过程中没有了编译这个环节。</li>
+<li>Python 是交互式语言： 意味着可以在一个 Python 提示符 &gt;&gt;&gt; 后直接执行代码</li>
+<li>Python 是面向对象语言: 意味着Python支持面向对象的风格或代码封装在对象的编程技术</li>
+</ul>
+<h2 id="1-2-Python的特点"><a href="#1-2-Python的特点" class="headerlink" title="1.2 Python的特点"></a>1.2 Python的特点</h2><ul>
+<li>易于学习：Python有相对较少的关键字，结构简单，和一个明确定义的语法，学习起来更加简单</li>
+<li>易于阅读：Python代码定义的更清晰</li>
+<li>易于维护：Python的成功在于它的源代码是相当容易维护的</li>
+<li>一个广泛的标准库：Python的最大的优势之一是丰富的库，跨平台的，在UNIX，Windows和Macintosh兼容很好</li>
+<li>互动模式：互动模式的支持，您可以从终端输入执行代码并获得结果的语言，互动的测试和调试代码片断</li>
+<li>可移植：基于其开放源代码的特性，Python已经被移植（也就是使其工作）到许多平台</li>
+<li>可扩展：如果你需要一段运行很快的关键代码，或者是想要编写一些不愿开放的算法，你可以使用C或C++完成那部分程序，然后从你的Python程序中调用</li>
+<li>数据库：Python提供所有主要的商业数据库的接口</li>
+<li>GUI编程：Python支持GUI可以创建和移植到许多系统调用</li>
+<li>可嵌入: 你可以将Python嵌入到C/C++程序，让你的程序的用户获得”脚本化”的能力</li>
+</ul>
+<h2 id="1-3-Python应用"><a href="#1-3-Python应用" class="headerlink" title="1.3 Python应用"></a>1.3 Python应用</h2><ul>
+<li>网站及游戏：Youtube、dropbox、知乎、果壳、EVE（游戏）</li>
+<li>云计算：云计算最热的语言，典型应用openstack</li>
+<li>WEB开发：优秀的web框架是python开发的</li>
+<li>操作系统和维护：操作和维护人员的基本语言</li>
+<li>金融：用于金融分析、定量交易，金融领域重要性逐年增加</li>
+</ul>
+<h2 id="1-4-Python解释器简介"><a href="#1-4-Python解释器简介" class="headerlink" title="1.4 Python解释器简介"></a>1.4 Python解释器简介</h2><p>&ensp;&ensp;&ensp;&ensp;解释器是一种让其他程序运行起来的程序。实际上，解释器是代码与计算机硬件之间的软件逻辑层。Shell就是常见的解释器。解释器在执行时，每次读入一条语句，并且根据这条语句执行特定的操作；然后再读入下一条语句。</p>
+<h1 id="2-Python-3环境搭建"><a href="#2-Python-3环境搭建" class="headerlink" title="2 Python 3环境搭建"></a>2 Python 3环境搭建</h1><hr>
+<p>Python 3可用的操作系统包括win、linux、mac OS X</p>
+<h2 id="2-1python-3的下载"><a href="#2-1python-3的下载" class="headerlink" title="2.1python 3的下载"></a>2.1python 3的下载</h2><p>python官网：<a href="https://www.python.org/" target="_blank" rel="noopener">https://www.python.org/</a><br>python文档：<a href="https://www.python.org/doc/" target="_blank" rel="noopener">https://www.python.org/doc/</a><br>win版下载：<a href="https://www.python.org/downloads/windows/" target="_blank" rel="noopener">https://www.python.org/downloads/windows/</a></p>
+<h2 id="2-2-python-3的安装"><a href="#2-2-python-3的安装" class="headerlink" title="2.2 python 3的安装"></a>2.2 python 3的安装</h2><p><img src="https://ftp.bmp.ovh/imgs/2020/12/9d8bf954db5b3043.png" alt=""><br><img src="https://ftp.bmp.ovh/imgs/2020/12/688e40128b75541b.png" alt=""><br>Win+R，调出命令行<br><img src="https://ftp.bmp.ovh/imgs/2020/12/9b0c94fa6d64cda4.png" alt=""><br><img src="https://ftp.bmp.ovh/imgs/2020/12/ca56beab2ef2f2d2.png" alt=""></p>
+<h2 id="2-3-python-3的环境变量配置（windows）"><a href="#2-3-python-3的环境变量配置（windows）" class="headerlink" title="2.3 python 3的环境变量配置（windows）"></a>2.3 python 3的环境变量配置（windows）</h2><p>&ensp;&ensp;&ensp;&ensp;程序和可执行文件可以在许多目录，而这些路径很可能不在操作系统提供可执行文件的搜索路径中。path(路径)存储在环境变量中，这是由操作系统维护的一个命名的字符串。这些变量包含可用的命令行解释器和其他程序的信息。linux或Windows中路径变量为PATH（linux区分大小写，Windows不区分大小写）</p>
+<ul>
+<li>在环境变量中添加python目录<br>右键此电脑-属性-高级系统设置-环境变量-系统变量中的Path（双击）<br><img src="https://ftp.bmp.ovh/imgs/2020/12/301b5cdac6038a81.png" alt=""></li>
+<li>python的环境变量<br><img src="https://ftp.bmp.ovh/imgs/2020/12/384ad9d706798939.png" alt=""></li>
+</ul>
+<h1 id="3-运行python-3"><a href="#3-运行python-3" class="headerlink" title="3 运行python 3"></a>3 运行python 3</h1><p>Python的运行模式分为两种：</p>
+<ul>
+<li>基于解释器的交互模式：能执行一行或一段代码后提供即时反馈，检查代码是否是预期运行的样子</li>
+<li>运行脚本的脚本模式：将整段代码写入一个扩展名为.py的文本文件中打包执行</li>
+</ul>
+<h2 id="3-1-交互模式"><a href="#3-1-交互模式" class="headerlink" title="3.1 交互模式"></a>3.1 交互模式</h2><p><img src="https://ftp.bmp.ovh/imgs/2020/12/90fc67fed7d293d1.png" alt=""><br><img src="https://ftp.bmp.ovh/imgs/2020/12/de5965e9b31ad795.png" alt=""><br>或者搜索idle，进入python解释器<br><img src="https://ftp.bmp.ovh/imgs/2020/12/57f30cb6cdeb0fa6.png" alt=""></p>
+<p>Linux下两种运行方法：</p>
+<ul>
+<li>第一种：python xx.py</li>
+<li>第二种：需要在.py文件内加上shebang，就是vim进入.py文件后<br>#!/usr/bin/env python<br>Print(“hello world”)<br>退出编辑后需要将其变为可执行文件，否则系统报错permission denied</li>
+</ul>
+<h2 id="3-2-脚本模式"><a href="#3-2-脚本模式" class="headerlink" title="3.2 脚本模式"></a>3.2 脚本模式</h2><ul>
+<li>（CMD）新建文本文件-写入print(“hello world”) input()-双击运行</li>
+<li>（IDLE） 新建文本文件-写入print(“hello world”) -双击运行</li>
+</ul>
+<p>Tips：raw_input()是为了防止闪退</p>
+<h2 id="3-3-程序执行"><a href="#3-3-程序执行" class="headerlink" title="3.3 程序执行"></a>3.3 程序执行</h2><p>&ensp;&ensp;&ensp;&ensp;字节码编译：python会把源码编译成所谓字节码的形式。编译是一个简单翻译的步骤，可以提高运行速度。如果python进程在机器上拥有写的权限，那么它会把程序的字节码保存为一个以.pyc为扩展名的文件。.pyc就是编译过的.py源代码。<br><img src="https://ftp.bmp.ovh/imgs/2020/12/3112dc62131d2940.png" alt=""><br>&ensp;&ensp;&ensp;&ensp;Python虚拟机（PVM）：字节码会通过PVM来执行，PVM是python的运行引擎，实际运行脚本的组件</p>
+]]></content>
+      <categories>
+        <category>Python笔记</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Arachni安装及网站扫描</title>
+    <url>/2020/05/03/Arachni%E5%AE%89%E8%A3%85%E5%8F%8A%E7%BD%91%E7%AB%99%E6%89%AB%E6%8F%8F/</url>
+    <content><![CDATA[<h1 id="0X00-Arachni介绍"><a href="#0X00-Arachni介绍" class="headerlink" title="0X00 Arachni介绍"></a>0X00 Arachni介绍</h1><hr>
+<p>Arachni是一个多功能、模块化、高性能的Ruby框架，旨在帮助渗透测试人员和管理员评估Web应用程序的安全性。同时Arachni开源免费，可安装在Windows、Linux以及Mac系统上，并且可导出评估报告。</p>
+<a id="more"></a>
+<h1 id="0X01下载Arachni"><a href="#0X01下载Arachni" class="headerlink" title="0X01下载Arachni"></a>0X01下载Arachni</h1><hr>
+<p>下载合适的Arachni版本，下载网址：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">https://www.arachni-scanner.com/download/</span></pre></td></tr></table></figure>
+
+<h1 id="0X02-解压Arachni压缩包"><a href="#0X02-解压Arachni压缩包" class="headerlink" title="0X02 解压Arachni压缩包"></a>0X02 解压Arachni压缩包</h1><hr>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">命令：root@kali:~/Download<span class="comment"># tar -xvf arachni-1.5.1-0.5.12-linux-x86_64.tar.gz</span></span></pre></td></tr></table></figure>
+<p><a href="https://imgchr.com/i/JzfgiD" target="_blank" rel="noopener"><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA1LzAzL0p6ZmdpRC5wbmc?x-oss-process=image/format,png" alt="JzfgiD.png"></a></p>
+<h1 id="0X03-启动Arachni"><a href="#0X03-启动Arachni" class="headerlink" title="0X03 启动Arachni"></a>0X03 启动Arachni</h1><hr>
+<p>进入解压后的文件夹中的bin目录，输入下面的命令，启动Arachni</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">命令：./arachni_web</span></pre></td></tr></table></figure>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA1LzAzL0p6aEVsOS5wbmc?x-oss-process=image/format,png" alt="JzhEl9.png"></p>
+<h1 id="0X04进入扫描界面"><a href="#0X04进入扫描界面" class="headerlink" title="0X04进入扫描界面"></a>0X04进入扫描界面</h1><hr>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">在浏览器中输入：localhost:9292</span></pre></td></tr></table></figure>
+
+<p>账号和密码点开Wiki查看<br><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA1LzAzL0p6aDhsZC5wbmc?x-oss-process=image/format,png" alt="Jzh8ld.png"><br><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA1LzAzL0p6NENuSS5wbmc?x-oss-process=image/format,png" alt="Jz4CnI.png"><br>输入账号，密码即可</p>
+<h1 id="0X05选择测试网站"><a href="#0X05选择测试网站" class="headerlink" title="0X05选择测试网站"></a>0X05选择测试网站</h1><hr>
+<p>为了更好的体现出Arachni的作用，有一个专门测试扫描器能力的网站</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">http://www.vulnweb.com/     //测试扫描器能力</span></pre></td></tr></table></figure>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA1LzAzL0p6NEt1bi5wbmc?x-oss-process=image/format,png" alt="Jz4Kun.png"><br>在这里我们选择第二个，作为测试的网站</p>
+<h1 id="0X06新建扫描并选择配置"><a href="#0X06新建扫描并选择配置" class="headerlink" title="0X06新建扫描并选择配置"></a>0X06新建扫描并选择配置</h1><hr>
+<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA1LzAzL0p6NGNnSC5wbmc?x-oss-process=image/format,png" alt="Jz4cgH.png"><br>部分比较重要的参数填写<br><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA1LzAzL0p6NURMbi5wbmc?x-oss-process=image/format,png" alt="Jz5DLn.png"><br><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA1LzAzL0p6NW9lMS5wbmc?x-oss-process=image/format,png" alt="Jz5oe1.png">)<img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA1LzAzL0p6NVRkeC5wbmc?x-oss-process=image/format,png" alt="Jz5Tdx.png"><br><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA1LzAzL0p6NTdvNi5wbmc?x-oss-process=image/format,png" alt="Jz57o6.png"><br><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9zMS5heDF4LmNvbS8yMDIwLzA1LzAzL0p6NVhTZS5wbmc?x-oss-process=image/format,png" alt="Jz5XSe.png"><br>由于扫描的时间太长，在这里扫描结果就不展示了。。。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Web安全</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux学习笔记 &amp; 3、文件权限与目录配置</title>
     <url>/2020/03/10/Linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-3%E3%80%81%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E4%B8%8E%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h1 id="0X01文件权限"><a href="#0X01文件权限" class="headerlink" title="0X01文件权限"></a>0X01文件权限</h1><hr>
